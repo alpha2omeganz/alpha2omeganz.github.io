@@ -20,7 +20,7 @@ export default function Header() {
         <NavigationEvents />
       </Suspense>
       <div className="w-36 h-36 relative flex-none mt-3">
-        <Image src="/alpha2omega-logo.png" className="rounded-full border-2 border-black" fill={true} alt="Alpha2Omega logo" />
+        <Image src="alpha2omega-logo.png" className="rounded-full border-2 border-black" fill={true} alt="Alpha2Omega logo" />
       </div>
       <div className="flex-1">
         <div className="w-120 mt-5 ml-2 text-lg grid grid-cols-15 text-center">
@@ -45,11 +45,11 @@ export default function Header() {
         </div>
       </div>
       {!isAboutPage && <div className="w-36 h-36 relative flex-none mt-3">
-        <Image src="/alpha6-logo.png" className="rounded-full border-2 border-black" fill={true} alt="Alpha6 logo" />
+        <Image src="alpha6-logo.png" className="rounded-full border-2 border-black" fill={true} alt="Alpha6 logo" />
       </div>}
       {isAboutPage && 
       <div>
-        <Image src="/peter-at-pinatubo.jpg" className="mt-2" width={300} height={180} alt="Peter Dennis at Pinotubo, 2024" />
+        <Image src="peter-at-pinatubo.jpg" className="mt-2" width={300} height={180} alt="Peter Dennis at Pinotubo, 2024" />
         <span className="absolute text-2xs font-bold text-white ml-32 -mt-7">Peter Dennis</span>
         <span className="absolute text-2xs text-white ml-32 -mt-4">Pinatubo, 2024</span>
       </div>}
