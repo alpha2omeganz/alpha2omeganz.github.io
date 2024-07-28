@@ -19,10 +19,10 @@ export default function AboutAuthor() {
           His kingdom work in New Zealand.
         </div>
         <div className="ml-5">
-          <Image src="peter-1.jpg" className="pr-1" width={240} height={200} alt="Alpha series"/>
-          <Image src="peter-2.jpg" className="mt-2" width={240} height={200} alt="Beta series"/>
-          <Image src="peter-3.jpg" className="pr-1 mt-2 float-start" width={130} height={200} alt="Delta series"/>
-          <Image src="peter-4.jpg" className="mt-2 float-end" width={140} height={200} alt="Psi series"/>
+          <Image src="/peter-1.jpg" className="pr-1" width={240} height={200} alt="Alpha series"/>
+          <Image src="/peter-2.jpg" className="mt-2" width={240} height={200} alt="Beta series"/>
+          <Image src="/peter-3.jpg" className="pr-1 mt-2 float-start" width={130} height={200} alt="Delta series"/>
+          <Image src="/peter-4.jpg" className="mt-2 float-end" width={140} height={200} alt="Psi series"/>
         </div>
       </div>
     </div>
