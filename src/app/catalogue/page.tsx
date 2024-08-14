@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <div className="text-md">
-      <div className="text-sm text-center w-96 mx-auto -mt-10">
+      <div className="text-sm text-center md:w-96 md:mx-auto md:-mt-10">
         The books are organised in categories based on subject and depth of study.  The Beta series will be released soon. They are in the final stages of preparation. Most of the titles in the Sigma series are published. Others are in their final publishing stages.
       </div>
-      <div className="grid grid-cols-2 mt-2">
+      <div className="grid grid-cols-2 mt-2 mx-1">
         <div>
           <p>
             <b>ALPHA</b> series (12, A5)
@@ -82,7 +82,7 @@ export default function About() {
             <li>Hawkes Bay to Wellington</li>
             <li>Marlborough Sounds, Mt Richmond and Kaikoura Ranges</li>
             <li>Tasman and Buller</li>
-            <li>West Cost and Alpine Fault</li>
+            <li>West Coast and Alpine Fault</li>
             <li>Canterbury and Otago</li>
             <li>Fiordland and Southland</li>
             <li>Chatham, Stewart and Southern Islands</li>

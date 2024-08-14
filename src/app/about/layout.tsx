@@ -16,8 +16,8 @@ export default function AboutLayout({
     title = "About the publication series";
 
   return (
-    <div>
-      <div className="text-center text-2xl -mt-12 mb-12">{title}</div>
+    <div className="mx-1">
+      <div className="text-center text-2xl md:-mt-12 md:mb-12">{title}</div>
       {children}
     </div>
   );

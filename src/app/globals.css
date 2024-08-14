@@ -11,7 +11,6 @@ body {
   background-image: url("../../public/bible-plain-cover-cropped.png");
   /*background-image: url("../../public/bible-plain-cover.jpg"),
   conic-gradient(rgb(231,231,222) 45deg, rgb(223,222,217) 135deg, rgb(232,233,226) 225deg, rgb(251,252,254) 315deg);*/
-  background-size: 1100px;
   background-position: top;
   background-repeat: no-repeat;
 }

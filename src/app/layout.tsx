@@ -16,13 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="w-[100vw]">
-      <body className={inter.className}>
-        <main className="flex ml-[calc(50%+25px)] -translate-x-1/2 mt-8 w-[880px] flex-col">
-          <div className="flex-none basis-40">
-            <Header />
-          </div>
-          <div className="grow">
+    <html lang="en" className="w-[100vw] min-h-screen">
+      <body className={`${inter.className} 
+        md:bg-[url('../../public/bible-plain-cover-cropped.png')]
+        md:bg-[size:1100px]
+        bg-[url('../../public/bible-texture.png')]
+        bg-cover
+        bg-top
+        bg-no-repeat`}>
+        <main className="md:ml-[calc(50%+25px)] md:-translate-x-1/2 md:mt-8 md:w-[880px] w-screen">
+          <Header />
+          <div>
             {children}
           </div>
         </main>
