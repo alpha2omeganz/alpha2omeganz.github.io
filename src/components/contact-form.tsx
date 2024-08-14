@@ -97,7 +97,7 @@ const ContactForm = () => {
           <ReCAPTCHA className="col-start-1 mr-0" sitekey="6Lc0jhwqAAAAABLh_I3tv2wqjqCIZMAVHu5_NPTZ" onChange={(e) => setRecaptcha(e)} />
           <span className={`col-start-2 text-2xl text-red-600 text-left ${recaptcha && "hidden"} block`}>*</span>
         </div>
-        <button type="submit" className="clear-both border border-black bg-white px-2 py-1 rounded mt-1 hover:bg-yellow-50 disabled:bg-gray-300" disabled={recaptcha === undefined || recaptcha === null || submitting}>Send</button>
+        <button type="submit" className="clear-both border border-black bg-white px-2 py-1 rounded mt-1 hover:bg-yellow-50 disabled:bg-gray-300" disabled={recaptcha === undefined || recaptcha === null || submitting}>{submitting ? "Sending..." : "Send"}</button>
       </form>
       <div className={`mt-2 text-lg ${!submitted && "hidden"}`}>
         Thank you. Your message has been sent.
