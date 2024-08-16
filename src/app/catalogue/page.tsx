@@ -120,7 +120,7 @@ export default function About() {
           </ul>
           <br />
 
-          There are also a number of publications whichare one-off and produced for special purposes,but are still available to the public at no cost.
+          There are also a number of publications which are one-off and produced for special purposes,but are still available to the public at no cost.
           <ul className="list-disc ml-6">
             <li><a className="underline" href={`${baseUrl}/Preston Park`}>Preston Park, Tauranga (2024)</a></li>
           </ul>
