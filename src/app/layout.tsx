@@ -24,7 +24,7 @@ export default function RootLayout({
         bg-cover
         bg-top
         bg-no-repeat`}>
-        <main className="md:ml-[calc(50%+25px)] md:-translate-x-1/2 md:mt-8 md:w-[880px] w-screen">
+        <main className="md:ml-[calc(50%+25px)] md:-translate-x-1/2 md:mt-8 md:w-[880px] w-screen mb-8">
           <Header />
           <div>
             {children}
