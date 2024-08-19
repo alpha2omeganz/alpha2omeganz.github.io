@@ -23,7 +23,7 @@ export default function AboutSeries() {
             <b>GAMMA series</b>
             <div className="flex">
               These are two independent books that are mostly critical investigations into: 1) Evolutionary assumptions, and 2) traditions within the Christian community, plus countering the critics that don’t accept the historical reliability of Scripture.
-              <Image src="/about-gamma-series.jpg" className="px-1 flex-none mr-0 ml-auto" width={180} height={200} alt="Gamma series"/>
+              <Image src="/about-gamma-series.jpg" className="px-1 flex-none mr-0 ml-auto h-48" width={180} height={180} alt="Gamma series"/>
             </div>
           </div>
           <div className="pt-4">
@@ -55,7 +55,7 @@ export default function AboutSeries() {
             <b>OMEGA series</b>
             <div className="flex">
               This series of six titles examines the Church through the ages, beginning with Old Testament Church. It concludes with the signs and wonders happening around us, drawing attention to what we can expect in the closing days of this current Church Age. The views presented are NOT intended as dogmatic, but simply as one possible interpretation and viewpoint.
-              <Image src="/about-omega-series.jpg" className="px-1 flex-none mr-0 ml-auto" width={180} height={180} alt="Omega series"/>
+              <Image src="/about-omega-series.jpg" className="px-1 flex-none mr-0 ml-auto h-64" width={180} height={180} alt="Omega series"/>
             </div>
           </div>
         </div>

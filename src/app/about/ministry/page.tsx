@@ -25,7 +25,7 @@ export default function AboutMinistry() {
           <div className="text-xs">
             <b>Dedication:</b>
             <br />
-            Dave Patterson (1933-2005), a lover of Truth and skilled as an acoustics and electrical engineer. Dave shared a common vision of providing scientific resources for New Zealanders, about New Zealand, by New Zealanders. 
+            Dave Paterson (1933-2005), a lover of Truth and skilled as an acoustics and electrical engineer. Dave shared a common vision of providing scientific resources for New Zealanders, about New Zealand, by New Zealanders. 
             <br /><br />
             This ministry is a continuation of that vision.
           </div>

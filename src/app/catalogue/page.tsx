@@ -51,7 +51,7 @@ export default function About() {
           <span className="italics text-xs">critical analysis</span>
           <ul className="list-disc ml-6">
             <li>Evolutionary Assumptions Investigated</li>
-            <li>Traditions and Influences in Christianity</li>
+            <li><a className="underline" href={`${baseUrl}/GAMMA - Traditions and Influences`}>Traditions and Influences in Christianity</a></li>
           </ul>
           <br />
 
@@ -102,7 +102,7 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/PSI - Buddhism - breaking the cycle`}>Buddhism - breaking the cycle</a></li>
             <li><a className="underline" href={`${baseUrl}/PSI - Mormonism - an unchristian cult`}>Mormonism - an unchristian cult</a></li>
             <li><a className="underline" href={`${baseUrl}/PSI - Cults - confused religions`}>Cults - confused religions</a></li>
-            <li>Secularism - denial of design</li>
+            <li><a className="underline" href={`${baseUrl}/PSI - Atheism - no objective morality`}>Atheism - no objective morality</a></li>
           </ul>
           <br />
 
