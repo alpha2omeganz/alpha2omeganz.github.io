@@ -21,7 +21,7 @@ export default function AboutMinistry() {
           The electronic books in this website are free to download and distribute with all liberty. Although the publications are copyright, the text and images are freely available to be used provided the author is acknowledged. Their use does not imply that I, the author, agree with the intent or purpose of the user.          
         </div>
         <div className="md:col-start-3 md:ml-4 text-sm">
-          <Image src="/dave-patterson.jpg" className="pr-1" width={280} height={200} alt="Dave Patterson"/>
+          <Image src="/dave-paterson.jpg" className="pr-1" width={280} height={200} alt="Dave Paterson"/>
           <div className="text-xs">
             <b>Dedication:</b>
             <br />

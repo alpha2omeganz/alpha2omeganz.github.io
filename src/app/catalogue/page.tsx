@@ -34,7 +34,7 @@ export default function About() {
           <ul className="list-disc ml-6">
             <li>Time</li>
             <li>NZ Geology</li>
-            <li>Plant Barachay</li>
+            <li><a className="underline" href={`${baseUrl}/BETA - Plant Barachay`}>Plant Barachay</a></li>
             <li>Astronomy</li>
             <li>Humans & Animal Barachay</li>
             <li>Dinosaurs and Fossils</li>
