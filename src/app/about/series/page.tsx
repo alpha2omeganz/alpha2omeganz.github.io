@@ -29,7 +29,7 @@ export default function AboutSeries() {
           <div className="pt-4">
             <b>DELTA series</b>
             <div className="flex">
-              Seven titles that look at a range of biblical topics.
+            These biblically centred topics use sound exegesis (drawing from the text what the original author(s) meant to convey and in its proper context). As God the Holy Spirit is the ultimate author of all Scripture (2 Timothy 3:16), He still speaks to us today. So, some personal insights of a free-flowing disciple who has walked consistently with his Lord and Saviour for almost 50 years are included. Readers are encouraged to prayerfully consider what is presented - and like the Bereans (Acts 17:11), to test against Scripture for themselves.
               <Image src="/about-delta-series.jpg" className="px-1 flex-none mr-0 ml-auto" width={180} height={200} alt="Delta series"/>
             </div>
           </div>
