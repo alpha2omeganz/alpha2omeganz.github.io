@@ -1,32 +1,28 @@
-name: Deploy website
-
+name: Release
 on:
   push:
-    branch: main
+    branches:
+      - main
   pull_request:
-
 jobs:
-  validate:
-    permissions:
-      contents: read
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: lts/iron
-          cache: 'npm'
-      - run: npm run build
-
-  deploy:
-    if: {{ github.event == 'push' }}
-    needs: validate
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/iron
-          cache: 'npm'
-      - run: npm run deploy
+      - name: Install dependencies
+        run: npm install
+      - name: Build NPM package
+        run: npm run build
+      - name: Publish github pages
+        if: github.event_name == 'push'
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/alpha2omeganz/alpha2omeganz.git
+          npm run gh-pages -d out --nojekyll --cname alpha2omega.nz -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
