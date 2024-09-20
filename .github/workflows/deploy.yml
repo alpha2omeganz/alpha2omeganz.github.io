@@ -21,6 +21,7 @@ jobs:
 
   deploy:
     if: {{ github.event == 'push' }}
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
