@@ -75,7 +75,7 @@ export default function About() {
           </p>
           <span className="italics text-xs">regional field guides</span>
           <ul className="list-disc ml-6">
-            <li>Northland and Northern Islands</li>
+            <li><a className="underline" href={`${baseUrl}/SIGMA - Northland and Northern Islands`}>Northland and Northern Islands</a></li>
             <li><a className="underline" href={`${baseUrl}/SIGMA - Auckland`}>Auckland</a></li>
             <li><a className="underline" href={`${baseUrl}/SIGMA - Coromandel`}>Coromandel</a></li>
             <li><a className="underline" href={`${baseUrl}/SIGMA - Hauraki Waikato and Taranaki`}>Hauraki, Waikato and Taranaki</a></li>
