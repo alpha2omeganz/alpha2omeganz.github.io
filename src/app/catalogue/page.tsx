@@ -35,7 +35,7 @@ export default function About() {
             <li>Time</li>
             <li>NZ Geology</li>
             <li><a className="underline" href={`${baseUrl}/BETA - Plant Barachay`}>Plant Barachay</a></li>
-            <li>Astronomy</li>
+            <li><a className="underline" href={`${baseUrl}/BETA - Astronomy`}>Astronomy</a></li>
             <li>Humans & Animal Barachay</li>
             <li>Dinosaurs and Fossils</li>
             <li><a className="underline" href={`${baseUrl}/BETA - Genetics and Ecology`}>Genetics and Ecology</a></li>

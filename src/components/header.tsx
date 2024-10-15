@@ -14,6 +14,7 @@ export default function Header() {
     (pathname === linkPath) ? 'text-shadow' : '';
 
   const isAboutPage = pathname.includes("/about");
+  const isAboutMinistryPage = pathname.includes("/about/ministry");
 
   return (
     <div className="flex align-middle">
@@ -33,8 +34,8 @@ export default function Header() {
           <details id="about-nav-details" className="col-start-5 col-span-3 flex flex-col">
             <summary><span className={`${maybeApplyActiveStyle('/about')} cursor-pointer hover:text-shadow`}>ABOUT</span></summary>
             <Link href="/about/ministry" className="text-sm text-left ml-4 hover:text-shadow">Ministry</Link>
-            <Link href="/about/author" className="text-sm text-left ml-4 hover:text-shadow">Author</Link>
             <Link href="/about/series" className="text-sm text-left ml-4 hover:text-shadow">Series</Link>
+            <Link href="/about/author" className="text-sm text-left ml-4 hover:text-shadow">Author</Link>
           </details>
           <span className="col-start-8">|</span>
           <div className="col-start-9 col-span-3">
@@ -49,11 +50,15 @@ export default function Header() {
       {!isAboutPage && <div className="w-36 h-36 relative flex-none mt-3 md:block hidden">
         <Image src="/alpha6-logo.png" className="rounded-full border-2 border-black" fill={true} alt="Alpha6 logo" />
       </div>}
-      {isAboutPage && 
+      {isAboutPage && !isAboutMinistryPage && 
       <div className="md:block hidden">
         <Image src="/peter-at-pinatubo.jpg" className="mt-2" width={300} height={180} alt="Peter Dennis at Pinotubo, 2024" />
         <span className="absolute text-2xs font-bold text-white ml-32 -mt-7">Peter Dennis</span>
         <span className="absolute text-2xs text-white ml-32 -mt-4">Pinatubo, 2024</span>
+      </div>}
+      {isAboutPage && isAboutMinistryPage && 
+      <div className="md:block hidden">
+        <Image src="/sunset-cropped.jpg" className="mt-2" width={290} height={170} alt="Sunset, Doughboy Bay, Stewart Island" />
       </div>}
     </div>
   );

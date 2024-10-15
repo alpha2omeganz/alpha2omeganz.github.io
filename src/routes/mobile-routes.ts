@@ -16,14 +16,14 @@ export const routes = [
     Icon: FaCross,
   },
   {
-    title: "About the author",
-    href: "/about/author",
-    Icon: FiSearch,
-  },
-  {
     title: "About the series",
     href: "/about/series",
     Icon: IoLibrary,
+  },  
+  {
+    title: "About the author",
+    href: "/about/author",
+    Icon: FiSearch,
   },    
   {
     title: "Catalogue",
