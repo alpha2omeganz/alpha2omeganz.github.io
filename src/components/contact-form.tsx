@@ -73,26 +73,26 @@ const ContactForm = () => {
           <div className="md:flex text-sm">
             <div className="pr-2">
               <h3>First Name</h3>
-              <input type="text" className="form-control h-9 w-72 p-1" value={firstName} onChange={(e) => setFirstName(e.target.value)} maxLength={256} required/><br/>
+              <input type="text" className="form-control h-9 w-72 p-1 border-2 border-slate-300" value={firstName} onChange={(e) => setFirstName(e.target.value)} maxLength={256} required/><br/>
             </div>
             <div className="md:pl-2">
               <h3>Last Name</h3>
-              <input type="text" className="form-control h-9 w-72 p-1" value={lastName} onChange={(e) => setLastName(e.target.value)} maxLength={256} required/><br/>
+              <input type="text" className="form-control h-9 w-72 p-1 border-2 border-slate-300" value={lastName} onChange={(e) => setLastName(e.target.value)} maxLength={256} required/><br/>
             </div>
           </div>
         </div>
         <p className="text-lg mt-2">
           Email Address <span className="text-sm">(required)</span>
         </p>
-        <input type="email" className="form-control h-9 w-72 p-1" value={email} onChange={(e) => setEmail(e.target.value)} maxLength={256} required/><br/>
+        <input type="email" className="form-control h-9 w-72 p-1 border-2 border-slate-300" value={email} onChange={(e) => setEmail(e.target.value)} maxLength={256} required/><br/>
         <p className="text-lg mt-2">
           Subject <span className="text-sm">(required)</span>
         </p>
-        <input type="text" className="form-control h-9 md:w-96 w-80 p-1" value={subject} onChange={(e) => setSubject(e.target.value)} maxLength={1024} required/><br/>        
+        <input type="text" className="form-control h-9 md:w-96 w-80 p-1 border-2 border-slate-300" value={subject} onChange={(e) => setSubject(e.target.value)} maxLength={1024} required/><br/>        
         <p className="text-lg mt-2">
           Message <span className="text-sm">(required)</span>
         </p>
-        <textarea rows={3} className="form-control md:w-96 w-80 p-1" value={message} onChange={(e) => setMessage(e.target.value)} maxLength={10*1024} required></textarea><br/>
+        <textarea rows={3} className="form-control md:w-96 w-80 p-1 border-2 border-slate-300" value={message} onChange={(e) => setMessage(e.target.value)} maxLength={10*1024} required></textarea><br/>
         <div className="grid grid-cols-[auto_auto] w-min mt-1">
           <ReCAPTCHA className="col-start-1 mr-0" sitekey="6Lc0jhwqAAAAABLh_I3tv2wqjqCIZMAVHu5_NPTZ" onChange={(e) => setRecaptcha(e)} />
           <span className={`col-start-2 text-2xl text-red-600 text-left ${recaptcha && "hidden"} block`}>*</span>

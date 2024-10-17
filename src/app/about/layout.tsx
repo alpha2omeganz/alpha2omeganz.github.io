@@ -14,6 +14,8 @@ export default function AboutLayout({
     title = "About the author";
   else if (pathname === "/about/series")
     title = "About the publication series";
+  else if (pathname === "/about/gospel")
+    title = "The Gospel = Good News";  
 
   return (
     <div className="mx-1">

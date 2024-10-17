@@ -11,6 +11,11 @@ export const routes = [
     Icon: BiHomeAlt2,
   },
   {
+    title: "About The Gospel",
+    href: "/about/gospel",
+    Icon: FaCross,
+  },  
+  {
     title: "About the ministry",
     href: "/about/ministry",
     Icon: FaCross,

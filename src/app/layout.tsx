@@ -18,9 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="w-[100vw] min-h-screen">
       <body className={`${inter.className} 
+        md:bg-white
         md:bg-[url('../../public/bible-plain-cover-cropped.png')]
         md:bg-[size:1100px]
-        bg-[url('../../public/bible-texture.png')]
+        bg-gradient-to-br from-[rgb(210,190,150)] to-[rgb(210,200,170)]
         bg-cover
         bg-top
         bg-no-repeat`}>
