@@ -36,10 +36,10 @@ export default function Header() {
           <span className="col-start-4">|</span>
           <details id="about-nav-details" className="col-start-5 col-span-3 flex flex-col">
             <summary><span className={`${maybeApplyActiveStyle('/about')} cursor-pointer hover:text-shadow`}>ABOUT</span></summary>
-            <Link href="/about/gospel" className="text-sm text-left ml-2 hover:text-shadow">The Gospel</Link>
-            <Link href="/about/ministry" className="text-sm text-left ml-2 hover:text-shadow">Ministry</Link>
-            <Link href="/about/series" className="text-sm text-left ml-2 hover:text-shadow">Series</Link>
-            <Link href="/about/author" className="text-sm text-left ml-2 hover:text-shadow">Author</Link>
+            <Link href="/about/gospel" className="text-sm text-left ml-1 mr-0 hover:text-shadow">The Gospel</Link>
+            <Link href="/about/ministry" className="text-sm text-left ml-1 mr-0 hover:text-shadow">Ministry</Link>
+            <Link href="/about/series" className="text-sm text-left ml-1 mr-0 hover:text-shadow">Series</Link>
+            <Link href="/about/author" className="text-sm text-left ml-1 mr-0 hover:text-shadow">Author</Link>
           </details>
           <span className="col-start-8">|</span>
           <div className="col-start-9 col-span-3">
