@@ -21,6 +21,14 @@ export default function AboutMinistry() {
           In today&apos;s secular society, young people are not given a choice. They are told what to believe without any indication of the assumptions that have been used to drive those interpretations. Contrary evidence is ignored or criticised. People are left believing as fact, the bias that teachers have presented them. James, the writer of a New Testament letter, warned against being a teacher, as teachers will incur a more strict judgement than others.
           <br /><br />
           The electronic books in this website are free to download and distribute with all liberty. Although the publications are copyright, the text and images are freely available to be used provided the author is acknowledged. Their use does not imply that I, the author, agree with the intent or purpose of the user.          
+          <br /><br />
+          People might ask, &apos;Why is this ministry free? There have been thousands of hours put into its production.&apos;
+          <br /><br />
+          The answer is found in Psalm 110:3,
+          <br />
+          <i><b>The people will volunteer freely in the day of Your power.</b></i>
+          <br /><br />
+          What we are seeing in these Last Days, is an acceleration of God&apos;s purposes and the culmination of thousands of years of prophetic preparation. Now is the time to surrender 100% to the lordship of Jesus.
         </div>
         <div className="md:col-start-3 md:ml-4 text-sm">
           <Image src="/dave-paterson.jpg" className="pr-1" width={280} height={200} alt="Dave Paterson"/>
