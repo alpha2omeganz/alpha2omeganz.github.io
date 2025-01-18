@@ -32,7 +32,7 @@ export default function About() {
           </p>
           <span className="italics text-xs">comprehensive scientific investigations</span>
           <ul className="list-disc ml-6">
-            <li>Time</li>
+            <li><a className="underline" href={`${baseUrl}/BETA - Time`}>Time</a></li>
             <li>NZ Geology</li>
             <li><a className="underline" href={`${baseUrl}/BETA - Plant Barachay`}>Plant Barachay</a></li>
             <li><a className="underline" href={`${baseUrl}/BETA - Astronomy`}>Astronomy</a></li>
