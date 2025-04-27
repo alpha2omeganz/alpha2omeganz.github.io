@@ -2,7 +2,7 @@ export default function About() {
   const baseUrl = "https://api.alpha2omega.nz/resources";
   return (
     <div className="text-md">
-      <div className="text-sm text-center md:w-96 md:mx-auto md:-mt-5">
+      <div className="text-sm text-center lg:w-96 lg:mx-auto lg:-mt-5">
         The books are organised in categories based on subject and depth of study.  The Beta series will be released soon. They are in the final stages of preparation. Most of the titles in the Sigma series are published. Others are in their final publishing stages.
       </div>
       <div className="grid grid-cols-2 mt-2 mx-1">

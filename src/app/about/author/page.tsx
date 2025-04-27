@@ -3,8 +3,8 @@ import Image
 export default function AboutAuthor() {
   return (
     <div>
-      <div className="md:grid md:grid-cols-3">
-        <div className="md:col-span-2 text-sm text-justify">
+      <div className="lg:grid lg:grid-cols-3">
+        <div className="lg:col-span-2 text-sm text-justify">
           Born in Christchurch, NZ, Peter grew up in a Christian family, being dedicated in a Methodist Church, and baptised in a Baptist Church. One Sunday night, the Holy Spirit simply said, “Go.” He then joined the New Life Center church and became part of the orchestra, even prophesying on the trumpet. It was at NLC that he picked up his missions interest, being involved in the Malaysian student group and then in the Chinese Church ministry. Peter was given a book on the Chinese language, and China became his adopted country. 
           <br /><br />
           After majoring in Chemistry at Canterbury University, he added Chinese to his Science degree and was then twice invited to go to China to teach English. While there, he travelled extensively around the country. Those years were foundational for later opportunities for ministry.
@@ -18,11 +18,11 @@ export default function AboutAuthor() {
           The challenge is now passed on to you to continue 
           His kingdom work in New Zealand.
         </div>
-        <div className="md:ml-5">
+        <div className="lg:ml-5">
           <Image src="/peter-1.jpg" className="pr-1" width={240} height={200} alt="Alpha series"/>
           <Image src="/peter-2.jpg" className="mt-2" width={240} height={200} alt="Beta series"/>
-          <Image src="/peter-3.jpg" className="pr-1 mt-2 md:float-start" width={130} height={200} alt="Delta series"/>
-          <Image src="/peter-4.jpg" className="mt-2 md:float-end" width={140} height={200} alt="Psi series"/>
+          <Image src="/peter-3.jpg" className="pr-1 mt-2 lg:float-start" width={130} height={200} alt="Delta series"/>
+          <Image src="/peter-4.jpg" className="mt-2 lg:float-end" width={140} height={200} alt="Psi series"/>
         </div>
       </div>
     </div>

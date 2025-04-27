@@ -3,7 +3,7 @@ import Image
 export default function AboutSeries() {
   return (
     <div>
-      <div className="md:grid md:grid-cols-2">
+      <div className="lg:grid lg:grid-cols-2">
         <div className="text-sm">
           <div>
             <b>ALPHA series</b>
@@ -36,7 +36,7 @@ export default function AboutSeries() {
           <br /><br />
           
         </div>
-        <div className="md:col-start-2 text-sm pl-1">
+        <div className="lg:col-start-2 text-sm pl-1">
           <div>
             <b>SIGMA series</b>
             <div className="flex">

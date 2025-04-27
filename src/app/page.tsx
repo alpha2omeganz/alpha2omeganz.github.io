@@ -1,12 +1,12 @@
 export default function Home() {
   return (
     <div className="mx-2">
-      <div className="md:text-xl text-md text-center">
+      <div className="lg:text-xl text-md text-center">
         Those from among you will rebuild the ancient ruins;
-        <br className="md:block hidden"/>
+        <br className="lg:block hidden"/>
         You will raise up the age-old foundations.
       </div>
-      <div className="md:text-xl text-lg text-right md:pr-48">
+      <div className="lg:text-xl text-lg text-right lg:pr-48">
         <span className="font-bold italic">Isaiah</span> 58:12
       </div>
       <div className="text-md text-center">
@@ -20,10 +20,10 @@ export default function Home() {
         May God Himself connect you to Himself in love and lead you in the Path of Life.
       </div>
       <br/>
-      <div className="md:text-3xl text-md text-center">
+      <div className="lg:text-3xl text-md text-center">
         We are living in the Days of Elijah
       </div>
-      <div className="md:text-xl text-md text-right md:pr-48">
+      <div className="lg:text-xl text-md text-right lg:pr-48">
         <span className="font-bold italic">Malachi</span> 4:5
       </div>      
     </div>

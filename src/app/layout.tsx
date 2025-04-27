@@ -18,14 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="w-[100vw] min-h-screen">
       <body className={`${inter.className} 
-        md:bg-white
-        md:bg-[url('../../public/bible-plain-cover-cropped.png')]
-        md:bg-[size:1100px]
+        lg:bg-white
+        lg:bg-[url('../../public/bible-plain-cover-cropped.png')]
+        lg:bg-[size:1100px]
         bg-gradient-to-br from-[rgb(210,190,150)] to-[rgb(210,200,170)]
         bg-cover
         bg-top
         bg-no-repeat`}>
-        <main className="md:ml-[calc(50%+25px)] md:-translate-x-1/2 md:mt-8 md:w-[880px] w-screen mb-8">
+        <main className="lg:ml-[calc(50%+25px)] lg:-translate-x-1/2 lg:mt-8 lg:w-[880px] w-screen mb-8">
           <Header />
           <div>
             {children}

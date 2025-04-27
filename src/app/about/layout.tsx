@@ -19,7 +19,7 @@ export default function AboutLayout({
 
   return (
     <div className="mx-1">
-      <div className="text-center text-2xl md:-mt-12 md:mb-12">{title}</div>
+      <div className="text-center text-2xl lg:-mt-12 lg:mb-12">{title}</div>
       {children}
     </div>
   );

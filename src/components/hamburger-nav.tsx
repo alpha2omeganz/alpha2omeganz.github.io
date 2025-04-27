@@ -12,7 +12,7 @@ export default function HamburgerNav() {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div ref={ref} className={`md:hidden ml-auto mr-0 w-[55%] ${isOpen && "bg-[rgb(206,200,183)] bg-no-repeat bg-cover"}`}>
+    <div ref={ref} className={`lg:hidden ml-auto mr-0 w-[55%] ${isOpen && "bg-[rgb(206,200,183)] bg-no-repeat bg-cover"}`}>
       <div className="ml-auto mr-0 w-12 h-12">
         <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       </div>
@@ -23,7 +23,7 @@ export default function HamburgerNav() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed left-[45%] shadow-4xl right-0 p-2 bg-[rgb(206,200,183)] bg-no-repeat bg-cover border-b rounded-xl rounded-t-none border-b-white/20"
+            className="fixed left-[45%] text-shadow-4xl right-0 p-2 bg-[rgb(206,200,183)] bg-no-repeat bg-cover border-b rounded-xl rounded-t-none border-b-white/20"
           >
             <ul className="grid gap-2">
               {routes.map((route, idx) => {
