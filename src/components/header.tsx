@@ -29,24 +29,24 @@ export default function Header() {
       </div>
       <HamburgerNav />
       <div className="flex-1 lg:block hidden">
-        <div className="w-[30rem] mt-5 ml-2 text-lg grid grid-cols-15 text-center">
-          <div className="col-start-1 col-span-3">
+        <div className="w-[30rem] mt-5 ml-2 text-lg grid grid-cols-[1fr,2px,2fr,2px,2fr,2px,2fr] text-center">
+          <div className="col-start-1">
             <Link href="/" className={`${maybeApplyActiveStyle('/')} hover:font-semibold`}>HOME</Link>
           </div>
-          <span className="col-start-4">|</span>
-          <details id="about-nav-details" className="col-start-5 col-span-3 flex flex-col">
+          <div className="col-start-2">|</div>
+          <details id="about-nav-details" className="col-start-3 flex flex-col">
             <summary><span className={`${maybeApplyActiveStyle('/about')} cursor-pointer hover:font-semibold`}>ABOUT</span></summary>
             <div className="text-left text-sm hover:font-semibold"><Link href="/about/gospel">The Gospel</Link></div>
             <div className="text-left text-sm hover:font-semibold"><Link href="/about/ministry">Ministry</Link></div>
             <div className="text-left text-sm hover:font-semibold"><Link href="/about/series">Series</Link></div>
             <div className="text-left text-sm hover:font-semibold"><Link href="/about/author">Author</Link></div>
           </details>
-          <span className="col-start-8">|</span>
-          <div className="col-start-9 col-span-3">
+          <div className="col-start-4">|</div>
+          <div className="col-start-5">
             <Link href="/catalogue" className={`${maybeApplyActiveStyle('/catalogue')} hover:font-semibold`}>CATALOGUE</Link>
           </div>
-          <span className="col-start-12">|</span>
-          <div className="col-start-13 col-span-3">
+          <div className="col-start-6">|</div>
+          <div className="col-start-7">
             <Link href="/contact" className={`${maybeApplyActiveStyle('/contact')} hover:font-semibold`}>CONTACT</Link>
           </div>
         </div>
