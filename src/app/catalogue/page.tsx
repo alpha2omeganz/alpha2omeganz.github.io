@@ -123,6 +123,7 @@ export default function About() {
           There are also a number of publications which are one-off and produced for special purposes, but are still available to the public at no cost.
           <ul className="list-disc ml-6">
             <li><a className="underline" href={`${baseUrl}/Preston Park`}>Preston Park, Tauranga (2024)</a></li>
+            <li><a className="underline" href={`${baseUrl}/China 1980s Golden Hues`}>China 1980&apos;s Golden Hues</a></li>
           </ul>
         </div>
       </div>
