@@ -22,6 +22,8 @@ export default function AboutAuthor() {
           <br /><br />
           Creation Camp at Karakariki, 20 minutes west of Hamilton.
           <br /><br />
+          15<sup>th</sup> to 17<sup>th</sup> of August, 2025
+          <br /><br />
           A full weekend of encouragement, apologetics and fellowship.
           <br /><br />
           Topics will cover a wide range of themes, from: Evidences of a young Earth, Living by Faith, to Caving and Testimonies of the power of God in spiritual encounters.
