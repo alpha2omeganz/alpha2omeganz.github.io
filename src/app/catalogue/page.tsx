@@ -125,6 +125,7 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/Preston Park`}>Preston Park, Tauranga (2024)</a></li>
             <li><a className="underline" href={`${baseUrl}/China 1980s Golden Hues`}>China 1980&apos;s Golden Hues</a></li>
             <li><a className="underline" href={`${baseUrl}/Chinese Ancient Characters`}>Chinese Ancient Characters</a></li>
+            <li><a className="underline" href={`${baseUrl}/Snapshots of Karakariki Reserve`}>Snapshots of Karakariki Reserve</a></li>
           </ul>
         </div>
       </div>
