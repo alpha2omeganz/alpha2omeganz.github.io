@@ -18,17 +18,6 @@ export default function AboutAuthor() {
           The challenge is now passed on to you to continue 
           His kingdom work in New Zealand.
           <br /><br />
-          <b>COMING UP</b>
-          <br /><br />
-          Creation Camp at Karakariki, 20 minutes west of Hamilton.
-          <br /><br />
-          15<sup>th</sup> to 17<sup>th</sup> of August, 2025
-          <br /><br />
-          A full weekend of encouragement, apologetics and fellowship.
-          <br /><br />
-          Topics will cover a wide range of themes, from: Evidences of a young Earth, Living by Faith, to Caving and Testimonies of the power of God in spiritual encounters.
-          <br /><br />
-          <a href="https://creationcamp.weebly.com" className="underline">https://creationcamp.weebly.com</a>
         </div>
         <div className="lg:ml-5">
           <Image src="/peter-1.jpg" className="pr-1" width={240} height={200} alt="Alpha series"/>
