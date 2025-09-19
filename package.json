@@ -12,10 +12,10 @@
     "deploy": "gh-pages -d out --nojekyll --cname alpha2omega.nz"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "framer-motion": "^12.22.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "framer-motion": "^12.23.16",
     "hamburger-react": "^2.5.2",
-    "next": "15.3.4",
+    "next": "15.5.3",
     "react": "^19",
     "react-dom": "^19",
     "react-google-recaptcha": "^3.1.0",
@@ -23,15 +23,15 @@
     "react-use": "^17.6.0"
   },
   "devDependencies": {
-    "@types/node": "^24.0.10",
+    "@types/node": "^24.5.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-google-recaptcha": "^2.1.9",
     "eslint": "^9",
-    "eslint-config-next": "15.3.4",
+    "eslint-config-next": "15.5.3",
     "gh-pages": "^6.3.0",
     "postcss": "^8",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.13",
     "typescript": "^5"
   }
 }
