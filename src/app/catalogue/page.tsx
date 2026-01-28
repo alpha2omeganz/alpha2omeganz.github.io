@@ -2,7 +2,7 @@ export default function About() {
   const baseUrl = "https://api.alpha2omega.nz/resources";
   return (
     <div className="text-md">
-      <div className="text-sm text-center lg:w-96 lg:mx-auto lg:-mt-5">
+      <div className="text-sm text-center lg:w-96 lg:mx-auto lg:-mt-20">
         The books are organised in categories based on subject and depth of study.  The Beta series will be released soon. They are in the final stages of preparation. Most of the titles in the Sigma series are published. Others are in their final publishing stages.
       </div>
       <div className="grid grid-cols-2 mt-2 mx-1">
@@ -68,8 +68,30 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/DELTA - Jesus the Messiah`}>Jesus the Messiah</a></li>
             <li><a className="underline" href={`${baseUrl}/DELTA - Heaven and Hell`}>Heaven and Hell</a></li>
           </ul>
+          <br />
+          There are also a number of publications which are one-off and produced for special purposes, but are still available to the public at no cost.
+          <ul className="list-disc ml-6">
+            <li><a className="underline" href={`${baseUrl}/Preston Park`}>Preston Park, Tauranga (2024)</a></li>
+            <li><a className="underline" href={`${baseUrl}/China 1980s Golden Hues`}>China 1980&apos;s Golden Hues</a></li>
+            <li><a className="underline" href={`${baseUrl}/Chinese Ancient Characters`}>Chinese Ancient Characters</a></li>
+            <li><a className="underline" href={`${baseUrl}/Snapshots of Karakariki Reserve`}>Snapshots of Karakariki Reserve</a></li>
+          </ul>          
         </div>
         <div className="col-start-2">
+          <p>
+            <b>MU</b> series
+          </p>
+          <ul className="list-disc ml-6">
+            <li><a className="underline" href={`${baseUrl}/MU - Above The Treeline`}>Above the Treeline</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Arthurs Pass`}>Arthur&apos;s Pass</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Cape Reinga`}>Cape Reinga</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Cobb Valley`}>Cobb Valley</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Fox And Franz Joseph`}>Fox and Franz Joseph</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Milford Sound`}>Milford Sound</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Tararua`}>Tararua</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Taupo Volcanic Zone`}>Taupo Volcanic Zone</a></li>
+          </ul>
+          <br />
           <p>
             <b>SIGMA</b> series (12, A5)
           </p>
@@ -117,15 +139,6 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/OMEGA - His Church from 1517 to Present`}>His Church from 1517 to Present</a></li>
             <li><a className="underline" href={`${baseUrl}/OMEGA - His Church - the Prophetic`}>His Church - the Prophetic</a></li>
             <li><a className="underline" href={`${baseUrl}/OMEGA - Omega Times Now`}>Omega Times Now</a></li>
-          </ul>
-          <br />
-
-          There are also a number of publications which are one-off and produced for special purposes, but are still available to the public at no cost.
-          <ul className="list-disc ml-6">
-            <li><a className="underline" href={`${baseUrl}/Preston Park`}>Preston Park, Tauranga (2024)</a></li>
-            <li><a className="underline" href={`${baseUrl}/China 1980s Golden Hues`}>China 1980&apos;s Golden Hues</a></li>
-            <li><a className="underline" href={`${baseUrl}/Chinese Ancient Characters`}>Chinese Ancient Characters</a></li>
-            <li><a className="underline" href={`${baseUrl}/Snapshots of Karakariki Reserve`}>Snapshots of Karakariki Reserve</a></li>
           </ul>
         </div>
       </div>
