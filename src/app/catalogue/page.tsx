@@ -86,7 +86,7 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/MU - Arthurs Pass`}>Arthur&apos;s Pass</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Cape Reinga`}>Cape Reinga</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Cobb Valley`}>Cobb Valley</a></li>
-            <li><a className="underline" href={`${baseUrl}/MU - Fox And Franz Joseph`}>Fox and Franz Joseph</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Fox And Franz Josef`}>Fox and Franz Josef</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Milford Sound`}>Milford Sound</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Tararua`}>Tararua</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Taupo Volcanic Zone`}>Taupo Volcanic Zone</a></li>
