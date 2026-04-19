@@ -84,11 +84,14 @@ export default function About() {
           <ul className="list-disc ml-6">
             <li><a className="underline" href={`${baseUrl}/MU - Above The Treeline`}>Above the Treeline</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Arthurs Pass`}>Arthur&apos;s Pass</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Bay Of Islands`}>Bay of Islands</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Cape Kidnappers`}>Cape Kidnappers</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Cape Reinga`}>Cape Reinga</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Christchurch`}>Christchurch</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Cobb Valley`}>Cobb Valley</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Curio Bay`}>Curio Bay</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Fox And Franz Josef`}>Fox and Franz Josef</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Hamilton`}>Hamilton</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Mason Bay`}>Mason Bay</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Milford Sound`}>Milford Sound</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Mt Cook`}>Mt Cook</a></li>
@@ -99,6 +102,8 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/MU - Taupo Volcanic Zone`}>Taupo Volcanic Zone</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Tauranga`}>Tauranga</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Tongariro`}>Tongariro</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Wairere`}>Wairere</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Whanganui River`}>Whanganui River</a></li>
           </ul>
           <br />
           <p>
