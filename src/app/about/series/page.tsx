@@ -58,6 +58,13 @@ export default function AboutSeries() {
               <Image src="/about-omega-series.jpg" className="px-1 flex-none mr-0 ml-auto h-64" width={180} height={180} alt="Omega series"/>
             </div>
           </div>
+          <div className="pt-4">
+            <b>MU series</b>
+            <div className="flex">
+            This series of titles looks at specific locations around New Zealand that the author has investigated. It presents more on-site detail than the SIGMA series. It includes geology, history and some unique characteristics of the location. It finishes with a meditation that is relevant to the location.
+              <Image src="/about-mu-series.jpg" className="px-1 flex-none mr-0 ml-auto" width={180} height={200} alt="Mu series"/>
+            </div>
+          </div>          
         </div>
       </div>
     </div>

@@ -23,14 +23,14 @@
     "react-use": "^17.6.0"
   },
   "devDependencies": {
-    "@types/node": "^25.7.0",
+    "@types/node": "^25.8.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-google-recaptcha": "^2.1.9",
     "eslint": "^10",
     "eslint-config-next": "16.2.6",
     "gh-pages": "^6.3.0",
-    "postcss": "^8",
+    "postcss": ">=8.5.14",
     "tailwindcss": "^4.3.0",
     "typescript": "^6"
   }

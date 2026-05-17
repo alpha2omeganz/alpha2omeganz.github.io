@@ -2,7 +2,7 @@ export default function About() {
   const baseUrl = "https://api.alpha2omega.nz/resources";
   return (
     <div className="text-sm">
-      <div className="text-sm text-center lg:w-128 lg:mx-auto lg:-mt-5 lg:mb-5">
+      <div className="text-sm text-center lg:w-148 lg:mx-auto lg:-mt-8 lg:mb-5">
         The books are organised in categories based on subject and depth of study.  The Beta series will be released soon. They are in the final stages of preparation. Most of the titles in the Sigma series are published. Others are in their final publishing stages.
       </div>
       <div className="grid grid-cols-2 mt-2 mx-1">
@@ -92,6 +92,7 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/MU - Curio Bay`}>Curio Bay</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Fox And Franz Josef`}>Fox and Franz Josef</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Hamilton`}>Hamilton</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Karangahake`}>Karangahake</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Mason Bay`}>Mason Bay</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Milford Sound`}>Milford Sound</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Mt Cook`}>Mt Cook</a></li>
@@ -103,6 +104,7 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/MU - Tauranga`}>Tauranga</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Tongariro`}>Tongariro</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Wairere`}>Wairere</a></li>
+            <li><a className="underline" href={`${baseUrl}/MU - Wellington`}>Wellington</a></li>
             <li><a className="underline" href={`${baseUrl}/MU - Whanganui River`}>Whanganui River</a></li>
           </ul>
           <br />
