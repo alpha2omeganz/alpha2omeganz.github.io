@@ -9,6 +9,7 @@ import HamburgerNav from "./hamburger-nav";
 
 export default function Header() {
   const pathname = usePathname();
+  const navLinkClass = "inline-block transition-transform duration-0 hover:scale-[1.03]";
   const maybeApplyActiveStyle = (linkPath: string) =>
     (pathname.includes(linkPath) && linkPath !== "/") ||
     (pathname === linkPath) ? 'font-semibold' : '';
@@ -31,23 +32,23 @@ export default function Header() {
       <div className="flex-1 lg:block hidden">
         <div className="w-[30rem] mt-5 ml-2 text-lg grid grid-cols-[1fr,2px,2fr,2px,2fr,2px,2fr] text-center">
           <div className="col-start-1">
-            <Link href="/" className={`${maybeApplyActiveStyle('/')} hover:font-semibold`}>HOME</Link>
+            <Link href="/" className={`${navLinkClass} ${maybeApplyActiveStyle('/')}`}>HOME</Link>
           </div>
           <div className="col-start-2">|</div>
           <details id="about-nav-details" className="col-start-3 flex flex-col">
-            <summary><span className={`${maybeApplyActiveStyle('/about')} cursor-pointer hover:font-semibold`}>ABOUT</span></summary>
-            <div className="text-left text-sm hover:font-semibold"><Link href="/about/gospel">The Gospel</Link></div>
-            <div className="text-left text-sm hover:font-semibold"><Link href="/about/ministry">Ministry</Link></div>
-            <div className="text-left text-sm hover:font-semibold"><Link href="/about/series">Series</Link></div>
-            <div className="text-left text-sm hover:font-semibold"><Link href="/about/author">Author</Link></div>
+            <summary><span className={`${navLinkClass} ${maybeApplyActiveStyle('/about')} cursor-pointer`}>ABOUT</span></summary>
+            <div className="text-left text-sm"><Link href="/about/gospel" className={navLinkClass}>The Gospel</Link></div>
+            <div className="text-left text-sm"><Link href="/about/ministry" className={navLinkClass}>Ministry</Link></div>
+            <div className="text-left text-sm"><Link href="/about/series" className={navLinkClass}>Series</Link></div>
+            <div className="text-left text-sm"><Link href="/about/author" className={navLinkClass}>Author</Link></div>
           </details>
           <div className="col-start-4">|</div>
           <div className="col-start-5">
-            <Link href="/catalogue" className={`${maybeApplyActiveStyle('/catalogue')} hover:font-semibold`}>CATALOGUE</Link>
+            <Link href="/catalogue" className={`${navLinkClass} ${maybeApplyActiveStyle('/catalogue')}`}>CATALOGUE</Link>
           </div>
           <div className="col-start-6">|</div>
           <div className="col-start-7">
-            <Link href="/contact" className={`${maybeApplyActiveStyle('/contact')} hover:font-semibold`}>CONTACT</Link>
+            <Link href="/contact" className={`${navLinkClass} ${maybeApplyActiveStyle('/contact')}`}>CONTACT</Link>
           </div>
         </div>
       </div>
