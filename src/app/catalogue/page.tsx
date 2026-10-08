@@ -2,7 +2,7 @@ export default function About() {
   const baseUrl = "https://api.alpha2omega.nz/resources";
   return (
     <div className="text-sm">
-      <div className="text-sm text-center lg:w-148 lg:mx-auto lg:-mt-8 lg:mb-5">
+      <div className="text-sm text-center lg:w-148 lg:mx-auto lg:-mt-18 lg:mb-5">
         The books are organised in categories based on subject and depth of study.  The Beta series will be released soon. They are in the final stages of preparation. Most of the titles in the Sigma series are published. Others are in their final publishing stages.
       </div>
       <div className="grid grid-cols-2 mt-2 mx-1">
@@ -142,6 +142,8 @@ export default function About() {
             <li><a className="underline" href={`${baseUrl}/PSI - Mormonism - an unchristian cult`}>Mormonism - an unchristian cult</a></li>
             <li><a className="underline" href={`${baseUrl}/PSI - Cults - confused religions`}>Cults - confused religions</a></li>
             <li><a className="underline" href={`${baseUrl}/PSI - Atheism - no objective morality`}>Atheism - no objective morality</a></li>
+            <li><a className="underline" href={`${baseUrl}/Mormonism - Joseph Smith`}>Mormonism - Joseph Smith</a></li>
+            <li><a className="underline" href={`${baseUrl}/Islam - Muhammad`}>Islam - Muhammad</a></li>
           </ul>
           <br />
 
