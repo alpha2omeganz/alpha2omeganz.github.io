@@ -1,22 +1,29 @@
 1:"$Sreact.fragment"
-2:I[93963,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"default"]
-3:I[39756,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"default"]
-4:I[37457,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"default"]
-5:I[47257,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"ClientPageRoot"]
-6:I[78299,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js","/_next/static/chunks/2d6vt1zd76j28.js"],"default"]
-9:I[97367,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"OutletBoundary"]
-a:"$Sreact.suspense"
-d:I[97367,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"ViewportBoundary"]
-f:I[97367,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"MetadataBoundary"]
-11:I[68027,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"default",1]
-:HL["/_next/static/chunks/0_bg_22t2tstr.css","style"]
+2:"/_next/static/chunks/0z8jwokvxwpwx.js"
+3:"/_next/static/chunks/02wib916r3xqs.js"
+4:I[93963,["$2","$3"],"default"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+a:I[47257,["$2","$3"],"ClientPageRoot"]
+b:"/_next/static/chunks/28b4v2zldki2z.js"
+c:I[78299,["$2","$3","$b"],"default"]
+f:I[97367,["$2","$3"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:"ViewportBoundary"
+13:I[97367,["$2","$3"],"$12"]
+15:"MetadataBoundary"
+16:I[97367,["$2","$3"],"$15"]
+18:I[68027,["$2","$3"],"default",1]
+:HL["/_next/static/chunks/2qwgq4o0m74n5.css","style"]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-c:X
-0:{"P":null,"c":["","contact"],"q":"","i":false,"f":[[["",{"children":["contact",{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0_bg_22t2tstr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0nznjjanw1a33.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0yd-v5xwm1clx.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"w-[100vw] min-h-screen","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className \n        lg:bg-white\n        lg:bg-[url('../../public/bible-plain-cover-cropped.png')]\n        lg:bg-[size:1100px]\n        bg-gradient-to-br from-[rgb(210,190,150)] to-[rgb(210,200,170)]\n        bg-cover\n        bg-top\n        bg-no-repeat","children":["$","main",null,{"className":"lg:ml-[calc(50%+25px)] lg:-translate-x-1/2 lg:mt-8 lg:w-[880px] w-screen mb-8","children":[["$","$L2",null,{}],["$","div",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","p",null,{"className":"text-2xl text-center mt-5","children":"404 - Page Not Found"}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"Component":"$6","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@7","$@8"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/2d6vt1zd76j28.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0_bg_22t2tstr.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wfiHKAtgyBHCMcihGqzAb"}
-c:C
-7:{}
-8:"$0:f:0:1:1:children:1:children:0:props:children:0:props:serverProvidedParams:params"
-e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-12:I[27201,["/_next/static/chunks/0nznjjanw1a33.js","/_next/static/chunks/0yd-v5xwm1clx.js"],"IconMark"]
-b:null
-10:[["$","title","0",{"children":"Alpha2Omega"}],["$","meta","1",{"name":"description","content":"Resource and information hub for Alpha2Omega"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0jlxy41yrq-lw.ico","sizes":"32x31","type":"image/x-icon"}],["$","$L12","3",{}]]
+8:X
+9:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$La",null,{"Component":"$c","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@d","$@e"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/28b4v2zldki2z.js","async":true,"nonce":"$undefined"}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":false,"v":null}}]]
+7:[["children",{"s":"contact","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$8"},"c":"$Q9"}]]
+0:{"P":null,"c":["","contact"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2qwgq4o0m74n5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0z8jwokvxwpwx.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/02wib916r3xqs.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"w-[100vw] min-h-screen","children":["$","body",null,{"className":"OU16Qa_className \n        lg:bg-white\n        lg:bg-[url('../../public/bible-plain-cover-cropped.png')]\n        lg:bg-[size:1100px]\n        bg-gradient-to-br from-[rgb(210,190,150)] to-[rgb(210,200,170)]\n        bg-cover\n        bg-top\n        bg-no-repeat","children":["$","main",null,{"className":"lg:ml-[calc(50%+25px)] lg:-translate-x-1/2 lg:mt-8 lg:w-[880px] w-screen mb-8","children":[["$","$L4",null,{}],["$","div",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","p",null,{"className":"text-2xl text-center mt-5","children":"404 - Page Not Found"}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$18",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2qwgq4o0m74n5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"k6LmrRrcINAAAurFAlTCH"}
+8:C
+d:{}
+e:"$9:0:1:d:r:props:children:0:props:serverProvidedParams:params"
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+19:I[27201,["$2","$3"],"IconMark"]
+11:null
+17:[["$","title","0",{"children":"Alpha2Omega"}],["$","meta","1",{"name":"description","content":"Resource and information hub for Alpha2Omega"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0jlxy41yrq-lw.ico","sizes":"32x31","type":"image/x-icon"}],["$","$L19","3",{}]]
